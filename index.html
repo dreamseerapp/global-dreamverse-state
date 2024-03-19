@@ -1,6 +1,6 @@
 <div style="padding-top: 50px;"></div>
 <h1 style="text-align:center;">Dreamverse State</h1>
-<h2 style="text-align:center;">March 09, 2024</h2>
+<h2 style="text-align:center;">March 19, 2024</h2>
 <div style="padding: 80px;"><html>
     <head>
         <meta charset="utf-8">
@@ -164,9 +164,23 @@
         body { background-color: #222222; color: #222222; }
         body, h1, h2 { color: white; }
         img { display: block; margin-left: auto; margin-right: auto; }
+        .refresh-button {
+            background-color: #9590a3; /* Background Colour */
+            color: white; /* White text color */
+            padding: 15px 32px; /* Padding inside the button */
+            text-align: center; /* Center the text inside the button */
+            display: block; /* Display block for width to take effect */
+            font-size: 16px; /* Font size of the text */
+            margin: 20px auto; /* Margin top and bottom 20px, auto left and right for centering */
+            cursor: pointer; /* Change mouse cursor to pointer when over the button */
+            border: none; /* No border */
+            border-radius: 5px; /* Rounded corners */
+        }
     </style>
 </head>
 <body>
+    <button class="refresh-button" onclick="window.location.reload();">Refresh Graph</button>
+
     <br>
     <h1 style="text-align:center;">Unique Dreams</h1>
     <img src="3d_scatter_rotation.gif" alt="3D Scatter Rotation" style="display: block; background-color: #222222; color:#222222;margin-left: auto; margin-right: auto;">
